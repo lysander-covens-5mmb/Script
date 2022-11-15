@@ -1,0 +1,245 @@
+body{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-image:url('images/Background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+   }
+
+img {
+   display: block;
+   margin: auto;
+   background-attachment: fixed;
+
+   }
+
+header{background-color: black;
+   background-image: url('images/SlipknotBewegendeCirkel.gif');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 120%;
+   padding-top: 30px;
+
+}
+
+header img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header ul {
+   width: 40%;
+   margin: 0 auto;
+
+
+}
+
+header li{
+   display: inline-block;
+   margin: auto;
+   padding: 5%;
+   position: center;
+}
+
+a{
+   color: white;
+   text-decoration: none;
+   
+}
+
+header a:hover{
+   color: #FF0000;
+}
+
+header nav{
+   background-color: rgb(19, 19, 19);
+}
+
+main{
+   text-shadow: 4px 4px 16px #FF0000;
+   text-align: center;
+}
+
+#home {
+
+    background-image: url('images/Slipknotinfobg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 30;
+    
+}
+
+#home p {
+   margin-bottom: 25px;
+   padding: 0 250px;
+}
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: lighter;
+}
+
+@font-face {
+   font-family: Sickness;
+   src: url("fonts/Sickness.ttf");
+}
+
+h2{
+   font-family: "sickness";
+   font-size: 50px;
+   margin-bottom: 25px;
+   padding-top: 25px;
+}
+
+div.gallery {
+   margin: 20px 20px;
+   border: 2px solid rgb(255, 0, 0);
+   display: inline-block;
+   width: 180px;
+   background-color: black;
+   border-radius: 10px;
+   margin: 5px 5px 15px 5px;
+   padding: 5px;
+ }
+ 
+ div.gallery:hover {
+   border: 2px solid rgb(255, 0, 0);
+   color: #FF0000;
+ }
+ 
+ div.gallery img {
+   width: 100%;
+   height: 175px;
+   border-radius: 15px;
+ }
+ 
+ div.desc {
+   padding: 10px;
+   text-align: center;
+ }
+
+ h2{
+   color: #FF0000;
+   margin-top: 500px;
+ }
+
+ div.merch {
+   margin: 20px 20px;
+
+   display: inline-block;
+   width: 300px;
+   background-color: black;
+   border-radius: 10px;
+   margin: 5px 5px 15px 5px;
+   padding: 5px;
+ }
+ 
+ div.merch:hover {
+   color: #FF0000;
+ }
+ 
+ div.merch img {
+   width: 100%;
+   height: 300px;
+   border-radius: 15px;
+ }
+ 
+ div.merch img:hover
+{
+  filter: brightness(150%);
+}
+
+div.gallery img:hover{
+  filter: brightness(150%);
+}
+
+ h3{
+   font-size: 30px;
+   margin: 10px;
+ }
+
+ section{
+   text-shadow: 0cm;
+   background-color: rgb(10, 10, 10);
+ }
+
+ #wearenotyourkind {
+   border: 2px solid purple;
+ }
+
+ #theendsofar{
+   border: 2px solid rgb(255, 51, 0);
+ }
+
+ #graychapter{
+   border: 2px solid rgb(146, 146, 146);
+ }
+ #allhopeisgone{
+   border: 2px solid rgb(59, 71, 51);
+
+ }
+
+ #subliminalverses{
+   border: 2px solid rgb(143, 77, 77);
+ }
+ #iowa{
+   border: 2px solid rgb(10, 105, 134);
+ }
+
+ #selftitled{
+   border: 2px solid rgb(226, 0, 0);
+ }
+
+ footer{
+   background: hsl(0, 0%, 0%);
+   padding: 20px;
+   text-align: center;
+ }
+
+ div.merchclothes {
+   margin: 20px 20px;
+   border: 2px solid rgb(255, 145, 0);
+   display: inline-block;
+   width: 180px;
+   background-color: black;
+   border-radius: 10px;
+   margin: 5px 5px 15px 5px;
+   padding: 5px;
+ }
+ 
+ div.merchclothes:hover {
+   border: 2px solid rgb(255, 0, 0);
+   color: #FF0000;
+ }
+ 
+ div.merchclothes img {
+   width: 100%;
+   height: 190px;
+   border-radius: 15px;
+ }
+
+ #tour img{
+  width: 50%;
+  border-radius: 40px;
+  padding-bottom: 25px;
+
+ }
+
+ #gallery img{
+  margin: 5px 5px;
+   border: 2px solid rgb(255, 0, 0);
+   display: inline-table;
+   width: 25%;
+   height: 25%;
+   background-color: black;
+   border-radius: 10px;
+   margin: 5px 5px 15px 5px;
+   padding: 5px;
+ }

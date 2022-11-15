@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Match App!</title>
+    <meta name="description" content="Een applicatie voor ... te gaan matchen">
+    <style>
+        footer {
+            background-color: rgb(51, 0, 0);
+            color: white;
+        }
+        body {
+            background-color: rgb(75, 0, 0);
+            color: white
+        }
+        header {
+            background-color: rgb(90, 1, 1);
+            color: rgb(255, 255, 255)
+        }
+    </style>
+</head>
+<body>
+     
+    <header>
+        <H1>Metal Match App</H1>
+            <h2>Intoductie!</h2>
+            <nav>
+                <ul>
+                    <li><a href="#intro">introductie</a></li>
+                    <li><a href="#lijstjes">lijstjes</a></li>
+                    <li><a href="#formulier">formulier</a></li>
+                </ul>
+            </nav>
+        <br>
+            <img id="bandimage" src=img/Korn.jpg    alt="Dit is een afbeelding van de gekozen band" width="419px">
+            <script src="Javascripts/SetRandomFoto/RandomFoto.JS">
+            </script>
+    </header>
+<main>
+<section id="intro">
+    <p>Klik hier voor meer <a href="google.com"> Fotos van deze band.</a></p>
+</section>
+<section id="lijstjes">
+    <H2>Waar kan je de muziek spelen?</H2></H3>
+    <ul>
+        <li>Spotify</li>
+        <li>Soundcloud</li>
+        <li>YT Music</li>
+        <li>Esound</li>
+        <li>Apple Music</li>
+        <li>Deezer</li>
+    </ul>
+    <H3>Wat maakt een Metal Band?</H3>
+    <ol>
+        <li>Minstens 3 leden</li>
+        <li>Drummer</li>
+        <li>Zanger</li>
+        <li>Gitaarist</li>
+        <li>Bassist</li>
+    </ol>
+    <br>
+
+</section>
+<footer>
+<section id="formulier">
+    <h2>Zoek zelf een band</h2>
+    <form action="">
+        <fieldset>
+            <legend id="">Luister je al naar metal?</legend>
+            <input type="radio" name="tevreden" value="ja">Ja
+            <input type="radio" name="tevreden" value="Nee">Nee
+        </fieldset><br>
+        <fieldset>
+            <legend>Wat is jouw mening over metal?</legend>
+            <textarea name="mening" id="textarea" cols="40" rows="15" placeholder="Zet hier je mening..."></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Hoeveel Metal artiesten heb je al geluisterd?</legend>
+            <input type="number" name="Aantal artiesten" placeholder="1">
+        </fieldset>
+        <fieldset>
+            <legend>Welk Metal genre hoor je het liefst?</legend>
+            <select name="Enquite" id="">
+                <option value="-">--selecteer een Genre--</option>
+                <option value="-">Heavy Metal</option>
+                <option value="-">Alternative Metal</option>
+                <option value="-">Black Metal</option>
+                <option value="-">Rap Metal</option>
+                <option value="-">Black Metal</option>
+                <option value="-">Nu Metal</option>
+                <option value="-">Progressive Metal</option>
+                <option value="-">Viking Metal</option>
+                <option value="-">War Metal</option>
+                <option value="-">Pirate Metal</option>
+                <option value="-">Christian Metal</option>
+                <option value="-">Death Metal</option>
+                <option value="-">Doom Metal</option>
+                <option value="-">Stoner Metal</option>
+                <option value="-">Extreme
+                Metal</option>
+                <option value="-">Folk Metal</option>
+                <option value="-">Thrash Metal</option>
+                <option value="-">Gothic Metal</option>
+                <option value="-">Industrial Metal</option>
+                <option value="-">Post Metal</option>
+                <option value="-">Power Metal</option>
+                <option value="-">Speed Metal</option>
+                <option value="-">Groove Metal</option>
+                <option value="-">Neoclassical Metal</option>
+                <option value="-">Cute/Kawaii Metal</option>
+                <option value="-">niet opgelijst </option>
+            </select>
+        </fieldset><br>
+        <fieldset>
+           <legend>
+            Hebt u al geluisterd naar deze artiesten?
+           </legend> 
+           <input type="checkbox" name="bands">System Of a Down <br>
+           <input type="checkbox" name="bands">Slipknot
+           <br>
+           <input type="checkbox" name="bands">Metallica
+           <br>
+           <input type="checkbox" name="bands">Trivium
+           <br>
+           <input type="checkbox" name="bands">Muse
+           <br>
+           <input type="checkbox" name="bands">Lamb Of God
+           <br>
+           <input type="checkbox" name="bands">Cannibal Corpse
+           <br>
+           <input type="checkbox" name="bands">Alestorm
+           <br>
+           <input type="checkbox" name="bands">Dark Tranquillity
+           <br>
+           <input type="checkbox" name="bands">Slayer
+           <br>
+        </fieldset>
+        <button type="submit">Verstuur dit formulier</button>
+        <button type="reset">reset</button>
+    </form>
+</section>
+</footer>
+
+
+
+</main>
+</body>
+</html>
