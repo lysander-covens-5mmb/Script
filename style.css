@@ -44,10 +44,6 @@ h2{
 }
 
 
-div{
-    display: inline-block;
-}
-
 div.col {
     margin: auto;
     padding: 5%;
