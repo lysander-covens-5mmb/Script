@@ -1,13 +1,7 @@
 header{
-    background-color: black;
-    color: aliceblue;
     text-align: center;
     padding: 25px;
-    margin-bottom: 20px;
-    background-image: url("images/header-background.png");
-    background-size: 100%;
-    background-repeat: repeat-x;
-    background-position: center;
+
 }
 *{
     padding: 0;
@@ -19,6 +13,7 @@ header{
     background-color: rgb(36, 36, 36);
     color: white;
     text-align: center;
+    display: flex;
 }
 
 ul {
@@ -49,23 +44,12 @@ h2{
     font-size: 40pt;
 }
 
-div.colright{
-    display: inline-block;
-    margin: auto;
-    padding: 5%;
-    position: center;
-    border: 1px solid rgb(255, 255, 255);
-    margin: 2px;
-    background-color: rgb(44, 44, 44);
-    border-radius:10px;
-}
 
 div{
     display: inline-block;
 }
 
-div.colleft {
-    display: inline-block;
+div.col {
     margin: auto;
     padding: 5%;
     position: center;
@@ -73,4 +57,19 @@ div.colleft {
     margin: 2px;
     background-color: rgb(44, 44, 44);
     border-radius:10px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+body{
+
+background-image: url("images/header-background.png");
+background-size: 100%;
+background-repeat: repeat;
+background-position: center;
+background-color: black;
+color: aliceblue;
+
 }
