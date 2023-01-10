@@ -14,7 +14,7 @@ header{
     color: white;
     text-align: center;
     display: flex;
-    background-image: url('images/header-background.png');
+    background-image: url('Images/header-background.png');
     background-position: center;
     background-size: 200%;
     background-repeat: repeat-x;
