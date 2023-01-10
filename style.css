@@ -1,6 +1,8 @@
 header{
     text-align: center;
     padding: 25px;
+    font-family: Heartless ;
+    font-size: 300%;
 
 }
 *{
@@ -10,10 +12,10 @@ header{
 
 #flexbox{
     padding:5%;
-    background-color: rgb(236, 200, 99);
     color: white;
     text-align: center;
     display: flex;
+    background-image: url('images/header-background.png');
 }
 
 ul {
@@ -61,11 +63,15 @@ a{
 }
 body{
 
-background-image: url("Images/header-background.png");
 background-size: 100%;
 background-repeat: repeat;
 background-position: center;
-background-color: rgb(2, 94, 114);;
+background: linear-gradient(#e66465, #9198e5);
 color: aliceblue;
 
+}
+
+@font-face {
+    font-family: Heartless;
+    src: url("Fonts/Heartless.ttf");
 }
