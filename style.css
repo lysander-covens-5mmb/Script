@@ -1,7 +1,7 @@
 header{
     text-align: center;
     padding: 25px;
-    font-size: 250%;
+    font-size: 200%;
 
 }
 *{
@@ -68,7 +68,9 @@ body{
 background-size: 100%;
 background-repeat: repeat;
 background-position: center;
-background: linear-gradient(#e66465, #9198e5);
+background: linear-gradient(217deg, rgba(141, 0, 82, 0.8), rgba(255, 255, 255, 0) 70.71%),
+            linear-gradient(172deg, rgba(0, 110, 0, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(6deg, rgba(1, 93, 109, 0.8), rgba(255, 255, 255, 0) 70.71%);
 color: aliceblue;
 
 }
@@ -76,4 +78,9 @@ color: aliceblue;
 @font-face {
     font-family: Heartless;
     src: url("Fonts/Heartless.ttf");
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
 }
