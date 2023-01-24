@@ -1,0 +1,37 @@
+/* instellingen vormgeving */
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* vormgeving classes */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* vormgeving hoofding */
+
+header img {
+    width: 100px;
+}
+
+#logonav{
+    display: inline-flex;
+
+}
+
+header li{
+    display: inline-block;
+}
+header i {
+    font-size: 2rem;
+    color: red;
+}
+
+    
+* {
+    margin: 0;
+    padding: 0;
+}
