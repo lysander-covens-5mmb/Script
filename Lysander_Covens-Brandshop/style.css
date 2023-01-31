@@ -80,13 +80,37 @@ header{
     padding-right: 20px;
 }
 
+.ad1{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
-.ad1 img{
-   width: 100%;
-    transform: scale(100%);
+.neversetlle{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    transition: 0.20s all ease-in-out;
+
+}
+
+
+.gsmmetjes{
+    width: 100%;
+    transform: scale(1);
+    transition: 0.25s all ease-in-out;
+
+}
+
+.gsmmetjes:hover{
+    transform: scale(1.1);
 }
 
 @font-face {
     font-family: oneplusfont;
     src: url(fonts/SlateForOnePlus-Regular.ttf);
+
 }
