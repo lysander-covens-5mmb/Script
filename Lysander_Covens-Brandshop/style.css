@@ -82,5 +82,5 @@ header{
 
 .ad1 img{
    width: 100%;
-
+    transform: scale(100%);
 }
