@@ -15,8 +15,8 @@ body {
 
 header img {
     width: 150px;
-    padding-left: 20px;
-    padding-right: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
@@ -25,15 +25,10 @@ header img {
 
 }
 
-header ul{
-    padding-top: 10px;
-
-}
 
 header li{
     display: inline-block;
-    margin-top: 3px;
-    padding: 5px 0px;
+    padding-top: 2%;
 }
 
 header i {
@@ -60,6 +55,7 @@ header a{
     transition: all .2s ease-in;
     color: black;
     padding: 20px;
+    font-size: 15px;
 
 }
 
@@ -122,5 +118,3 @@ header{
     
 }
 
-
-  
