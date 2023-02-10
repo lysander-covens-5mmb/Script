@@ -2,6 +2,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
+    font-family: oneplusfont;
 }
 
 /* vormgeving classes */
@@ -21,14 +22,19 @@ header img {
 }
 
 #logonav{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 
 }
 
 
 header li{
-    display: inline-block;
-    padding-top: 2%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+
 }
 
 header i {
@@ -42,7 +48,7 @@ header i {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: oneplusfont;
+
 }
 
 
@@ -54,8 +60,9 @@ header a{
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
     color: black;
-    padding: 20px;
+    padding: 15px 7px 15px 7px;
     font-size: 15px;
+    border-radius: 10px;
 
 }
 
@@ -81,20 +88,20 @@ header{
     position: relative;
     text-align: center;
     color: white;
+    max-height: 400px;
+
 }
 
 
 
 .gsmmetjes{
     width: 100%;
-    transform: scale(1);
-    transition: 0.25s all ease-in-out;
+    transform: translateY(-10%);
+    border-radius: 5;
+
 
 }
 
-.gsmmetjes:hover{
-    transform: scale(1.1);
-}
 
 @font-face {
     font-family: oneplusfont;
