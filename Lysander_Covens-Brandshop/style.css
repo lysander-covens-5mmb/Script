@@ -10,6 +10,8 @@ body {
 .flex-container {
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: auto;
 }
 
 /* vormgeving hoofding */
@@ -26,24 +28,22 @@ header img {
     flex-direction: row;
     flex-wrap: nowrap;
 
-}
 
+}
 
 header li{
     display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: left;
-
 }
+
 
 header i {
     font-size: 2rem;
     color: red;
     padding-top: 0px;
+    margin-left: 2px;
 }
 
-    
+
 * {
     margin: 0;
     padding: 0;
@@ -80,6 +80,7 @@ header{
 
 .extraicoontjes {
     padding-top: 5px;
+    margin: 5px;
 }
 
 .ad1{
@@ -92,13 +93,10 @@ header{
 }
 
 
-
 .gsmmetjes{
     width: 100%;
     transform: translateY(-17%);
     border-radius: 5;
-
-
 }
 
 
@@ -115,12 +113,207 @@ header{
     width: 50%;
     padding: 5px;
     background-color: #f5f5f5;
-    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    padding-left: 5px;
 
 }
 
 #searchbalk:hover, #searchbalk:focus{
     background-color: rgb(216, 216, 216);
+    transform: scale(1.05);
     
 }
 
+
+.minishop-container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: linear-gradient(white, rgb(153, 153, 153)  , white );
+
+
+
+
+}
+.minishop-item{
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+
+}
+figure {
+    position: relative;
+}
+
+.minishop-item figcaption{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+    padding: 7.5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    right: 25%;
+    z-index: 2;
+}
+
+.minishop-item img{
+    width: 100%;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+}
+
+.minishop-item figcaption:hover{
+
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+figure img:hover , .minishop-item figcaption:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+.grotead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: auto;
+    padding: 50px;  
+    overflow: hidden;
+    background-color: rgb(231, 231, 231);
+    
+}
+
+.grotead img{
+    height: 300px;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.grotead img:hover{
+    transform: scale(1.1);
+
+}
+
+.productcard-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    max-height: 300px;
+    max-width: 200px;
+    padding: 20px;
+}
+
+.productcard-left button{
+    padding: 10px;
+    border-radius: 0px;
+    border: 0 solid;
+    margin: 5px;
+    text-align: center;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+
+}
+
+.productcard-left button:hover{
+    transform: scale(1.1);
+}
+
+.productcard-right{
+    overflow: hidden;
+}
+
+
+#doorschrapt{
+    color: gray;
+    text-decoration: line-through;
+    padding-bottom: 5px;
+}
+
+#koopbutton{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#bekijkproduct{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+}
+
+#featuring {
+    padding: 3%;
+    background-color: black;
+    color: white;
+    padding-left: 5%;
+}
+
+#featuring H1 {
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+.featuring-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: auto;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    padding-top: 3%;
+
+}
+
+.featuring-container img{
+    height: 300px;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.featuring-container img:hover{
+    transform: scale(1.1);
+
+}
+
+#featuring a{
+    color: red;
+    text-decoration: none;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+
+}
+
+#featuring H2{
+    position: static;
+}
+
+#featuring a:hover{
+    transform: translateX(50%);
+}

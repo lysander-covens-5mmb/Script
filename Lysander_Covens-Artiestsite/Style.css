@@ -39,10 +39,12 @@ header ul {
 }
 
 header li{
-   display: inline-block;
+   display: inline-flex;
    margin: auto;
    padding: 5%;
    position: center;
+   justify-content: center;
+   flex-direction: row;
 }
 
 a{
