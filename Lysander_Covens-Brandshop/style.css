@@ -1,11 +1,8 @@
-/* instellingen vormgeving */
-
 body {
     background-color: rgb(255, 255, 255);
     font-family: oneplusfont;
 }
 
-/* vormgeving classes */
 
 .flex-container {
     display: flex;
@@ -14,7 +11,6 @@ body {
     padding: auto;
 }
 
-/* vormgeving hoofding */
 
 header img {
     width: 150px;
@@ -157,7 +153,7 @@ figure {
     border-radius: 5px;
     color: rgb(0, 0, 0);
     position: absolute;
-    bottom: 10%;
+    bottom:5%;
     left: 25%;
     right: 25%;
     z-index: 2;
@@ -303,17 +299,31 @@ figure img:hover , .minishop-item figcaption:hover {
 #featuring a{
     color: red;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
+    gap: 5px;
 
 }
 
-#featuring H2{
-    position: static;
+
+#featuring i {
+    font-size: 2rem;
+    color: red;
+    padding-top: 0px;
+    margin-left: 5px;
+    
 }
 
 #featuring a:hover{
-    transform: translateX(50%);
+    gap: 35px ;
+}
+
+#kleineletters {
+    font-size: 11px;
+    padding-bottom: 5px;
 }
