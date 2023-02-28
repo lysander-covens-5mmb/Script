@@ -71,6 +71,7 @@ header a:hover{
 
 header{
     padding: 7px;
+    
 }
 
 
@@ -129,7 +130,7 @@ header{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background: linear-gradient(white, rgb(153, 153, 153)  , white );
+    background: linear-gradient(rgb(153, 153, 153)  , white , rgb(153, 153, 153));
 
 
 
@@ -143,20 +144,25 @@ header{
 }
 figure {
     position: relative;
+
 }
 
 .minishop-item figcaption{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     text-align: center;
     font-size: 15px;
     padding: 7.5px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
     position: absolute;
     bottom:5%;
-    left: 25%;
-    right: 25%;
+    left: 20%;
+    right: 20%;
     z-index: 2;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
 }
 
 .minishop-item img{
@@ -168,17 +174,11 @@ figure {
 
 }
 
-.minishop-item figcaption:hover{
-
-    -moz-transition: all .1s ease-in;
-    -o-transition: all .1s ease-in;
-    -webkit-transition: all .1s ease-in;
-    transition: all .1s ease-in;
-}
 
 figure img:hover , .minishop-item figcaption:hover {
     transform: scale(1.1);
-    color: red;
+    color: red; 
+
 }
 
 .grotead{
@@ -280,6 +280,7 @@ figure img:hover , .minishop-item figcaption:hover {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     padding-top: 3%;
+    padding-bottom: 50px;
 
 }
 
@@ -333,4 +334,13 @@ figure img:hover , .minishop-item figcaption:hover {
     padding: 20px;
     background-color: red;
     color: white;
+}
+
+.fullscreenad {
+    background-image: url(img/OnePlusBuds.jpg);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10%;
 }
