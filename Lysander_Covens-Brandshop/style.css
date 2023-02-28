@@ -133,8 +133,6 @@ header{
     background: linear-gradient(rgb(153, 153, 153)  , white , rgb(153, 153, 153));
 
 
-
-
 }
 .minishop-item{
     max-width: 300px;
@@ -250,6 +248,11 @@ figure img:hover , .minishop-item figcaption:hover {
     border: 1px solid rgb(0, 0, 0);
 }
 
+#koopbutton-border{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
 #bekijkproduct{
     border: 1px solid rgb(0, 0, 0);
 }
@@ -343,4 +346,22 @@ figure img:hover , .minishop-item figcaption:hover {
     background-repeat: no-repeat;
     background-position: center;
     padding: 10%;
+}
+
+#Audioshop {
+    background: linear-gradient(0.25turn, white , rgb(153, 153, 153));
+}
+
+#zwarteachtergrond {
+    background-color: black;
+    color: white;
+
+}
+
+#vergrooting {
+    background: linear-gradient(0.25turn, rgb(255, 0, 0) , rgb(75, 0, 0));
+}
+
+#omgekeerdegradient {
+    background: linear-gradient(white  , rgb(153, 153, 153) , white);
 }
