@@ -130,10 +130,12 @@ header{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background: linear-gradient(rgb(153, 153, 153)  , white , rgb(153, 153, 153));
-
-
 }
+
+#telefoonachtergrond {
+    background: linear-gradient(rgb(153, 153, 153)  , white , rgb(153, 153, 153));
+}
+
 .minishop-item{
     max-width: 300px;
     max-height: 300px;
