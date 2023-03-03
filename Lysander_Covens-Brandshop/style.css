@@ -369,3 +369,45 @@ figure img:hover , .minishop-item figcaption:hover {
 #omgekeerdegradient {
     background: linear-gradient(white  , rgb(153, 153, 153) , white);
 }
+
+footer{
+    background-color: black;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    padding: 5%;
+    padding-top: 0px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul p:first-child{
+    font-size: 25px;
+    color: red;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    text-decoration: underline;
+    
+}
+
+footer ul p:first-child:hover{
+    background-color: rgb(36, 36, 36);
+
+}
+
+#extrapaddingtop {
+    padding-top: 20px;
+}
