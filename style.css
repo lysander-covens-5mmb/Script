@@ -1,12 +1,56 @@
 header{
     text-align: center;
-    padding: 25px;
     font-size: 200%;
+    font-family: Sickness;
 
 }
+
+.header-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+header video{
+   height: 700px;
+   width: max-content;
+}
+header img{
+    position: absolute;
+    bottom: 50%;
+    width: 350px;
+    z-index: 3;
+    left: auto;
+    right: auto;
+
+}
+
+#rotatie{
+    mix-blend-mode:soft-light;
+    z-index: 2;
+    bottom: 33%;
+    width: 400px;
+    animation: spin 20s infinite linear;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 #flexbox{
@@ -14,10 +58,12 @@ header{
     color: white;
     text-align: center;
     display: flex;
+    justify-content: center;
     background-image: url('Images/header-background.png');
     background-position: center;
     background-size: 200%;
     background-repeat: repeat-x;
+    flex-wrap: wrap;
 }
 
 ul {
@@ -44,13 +90,14 @@ p{
 
 h2{
     padding: 30px;
+    padding-bottom: 5px;
     font-size: 40pt;
 }
 
 
 div.col {
     margin: auto;
-    padding: 5%;
+    padding: 2%;
     position: center;
     border: 1px solid white;
     margin: 2px;
@@ -68,18 +115,41 @@ body{
 background-size: 100%;
 background-repeat: repeat;
 background-position: center;
-background: linear-gradient(217deg, rgba(168, 22, 107, 0.8), rgba(255, 255, 255, 0) 70.71%),
-            linear-gradient(172deg, rgba(9, 165, 9, 0.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(0deg, rgba(17, 140, 161, 0.8), rgba(255, 255, 255, 0) 70.71%);
-color: aliceblue;
+background: linear-gradient(217deg, rgba(41, 201, 62, 0.555), rgba(255, 255, 255, 0) 70.71%),
+            linear-gradient(172deg, rgba(94, 118, 224, 0.685), rgba(0,255,0,0) 70.71%),
+            linear-gradient(0deg, rgba(199, 228, 69, 0.781), rgba(255, 255, 255, 0) 70.71%);
+color: white;
+background-color: black;
+
+
 }
 
+.project-video{
+    max-width: 500px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+video{
+    width: 500px;
+}
+
+
+
+
 @font-face {
-    font-family: Heartless;
-    src: url("Fonts/Heartless.ttf");
+    font-family: Sickness;
+    src: url("Lysander_Covens-Artiestsite/fonts/Sickness.ttf");
 }
 
 footer{
     text-align: center;
     margin-bottom: 20px;
+    color: white;
 }
+
+footer a{
+    color: white;
+}
+
+
