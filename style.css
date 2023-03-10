@@ -60,10 +60,6 @@ header img{
     text-align: center;
     display: flex;
     justify-content: center;
-    background-image: url('Images/header-background.png');
-    background-position: center;
-    background-size: 200%;
-    background-repeat: repeat-x;
     flex-wrap: wrap;
     gap: 1%;
 }
@@ -72,7 +68,7 @@ ul {
     width: 40%;
     margin: 0 auto;
     padding-top: 20px;
- 
+    list-style: none;
  }
  
 li{
@@ -94,6 +90,7 @@ h2{
     padding: 30px;
     padding-bottom: 5px;
     font-size: 40pt;
+    font-family: Sickness;
 }
 
 
@@ -104,6 +101,7 @@ div.col {
     border: 1px solid white;
     margin: 2px;
     border-radius:10px;
+
 }
 
 a{
