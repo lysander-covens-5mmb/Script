@@ -35,8 +35,8 @@ header img{
 #rotatie{
     mix-blend-mode:soft-light;
     z-index: 2;
-    bottom: 33%;
-    width: 400px;
+    bottom: 25%;
+    width: 500px;
     animation: spin 20s infinite linear;
 }
 
