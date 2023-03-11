@@ -11,6 +11,10 @@ body {
     list-style: none;
 }
 
+img{
+    display: block;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-between;
