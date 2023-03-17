@@ -30,7 +30,7 @@ header img {
 
 }
 
-#logonav{
+.logonav{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -108,7 +108,7 @@ header{
 
 }
 
-#searchbalk{
+.searchbalk{
     border:0px rgb(211, 211, 211);
     border-radius: 7.5px;
     height: 20px;
@@ -123,7 +123,7 @@ header{
 
 }
 
-#searchbalk:hover, #searchbalk:focus{
+.searchbalk:hover, .searchbalk:focus{
     background-color: rgb(216, 216, 216);
     transform: scale(1.05);
     
@@ -187,24 +187,24 @@ header{
 }
 
 
-#doorschrapt{
+.doorschrapt{
     color: gray;
     text-decoration: line-through;
     padding-bottom: 5px;
 }
 
-#koopbutton{
+.koopbutton{
     background-color: black;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(0, 0, 0);
 }
 
-#koopbutton-border{
+.koopbutton-border{
     background-color: black;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
 }
-#bekijkproduct{
+.bekijkproduct{
     border: 1px solid rgb(0, 0, 0);
 }
 
@@ -280,12 +280,12 @@ header{
     gap: 35px ;
 }
 
-#kleineletters {
+.kleineletters {
     font-size: 11px;
     padding-bottom: 5px;
 }
 
-#rodeachtergrond {
+.rodeachtergrond {
     text-align: center;
     padding: 20px;
     background-color: red;
@@ -301,17 +301,17 @@ header{
     padding: 10%;
 }
 
-#Audioshop {
+.Audioshop {
     background: linear-gradient(0.25turn, white , rgb(153, 153, 153));
 }
 
-#zwarteachtergrond {
+.zwarteachtergrond {
     background-color: black;
     color: white;
 
 }
 
-#vergrooting {
+.vergrooting {
     background: linear-gradient(0.25turn, rgb(255, 0, 0) , rgb(75, 0, 0));
 }
 
@@ -325,7 +325,7 @@ header{
     flex-wrap: wrap;
 }
 
-#telefoonachtergrond {
+.telefoonachtergrond {
     background: linear-gradient(rgb(153, 153, 153)  , white , rgb(153, 153, 153));
 }
 
@@ -374,7 +374,7 @@ figure img:hover , .minishop-item figcaption:hover {
 
 }
 
-#omgekeerdegradient {
+.omgekeerdegradient {
     background: linear-gradient(white  , rgb(153, 153, 153) , white);
 }
 
@@ -419,7 +419,7 @@ footer ul li:first-child:hover{
 
 }
 
-#extrapaddingtop {
+.extrapaddingtop {
     padding-top: 20px;
 }
 
