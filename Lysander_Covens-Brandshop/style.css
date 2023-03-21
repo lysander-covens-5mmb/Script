@@ -447,3 +447,25 @@ footer i{
     gap: 5px;
 }
 
+video{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#info{
+    text-align: center;
+}
+#info i{
+    font-size: 30px;
+}
+
+#info i , #info p {
+
+    padding-bottom: 25px;
+    transition: all 0.5s;
+}
+
+#info i:hover , #info p:hover{
+    color: red;
+    transform: scale(1.1);
+}
