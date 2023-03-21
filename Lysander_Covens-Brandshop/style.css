@@ -163,6 +163,10 @@ header{
     max-width: 200px;
     padding: 1%;
 }
+.productcard-meer-max-size{
+    max-height: 500px;
+    max-width: 200px;
+}
 
 .productcard-left button{
     padding: 10px;
@@ -200,12 +204,12 @@ header{
 }
 
 .koopbutton-border{
-    background-color: black;
+    background-color: rgb(26, 26, 26);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
 }
 .bekijkproduct{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .button-container{
@@ -293,12 +297,19 @@ header{
 }
 
 .fullscreenad {
-    background-image: url(img/OnePlusBuds.jpg);
-    background-size: cover;
+     background-size: cover;
     color: white;
     background-repeat: no-repeat;
     background-position: center;
     padding: 10%;
+}
+
+.oortjesachtergrond{
+    background-image: url(img/OnePlusBuds.jpg);
+}
+
+.gsmsachtergrond{
+    background-image: url(img/AwardsBG.jpg);
 }
 
 .Audioshop {
