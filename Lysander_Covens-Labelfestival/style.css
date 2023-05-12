@@ -159,13 +159,13 @@ h1{
 }
 
 .grid-item img{
-        object-fit: cover;
-        width: 100%;
-        transform: scale(1);
-        -moz-transition: all .5s ease-in-out;
-        -o-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
-        transition: all .5s ease-in-out;
+    object-fit: cover;
+    width: 100%;
+    transform: scale(1);
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .grid-item img:hover{
@@ -266,8 +266,71 @@ footer img{
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 1.5  rem
+    
 }
 
 .bluebg{
     background-color: var(--bgc-03);
 }
+
+.overlapping-images{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.overlapping-images img:first-child{
+    position: absolute;
+    top: 50%;
+    animation: infinite linear;
+    animation-name: rotatie;
+    animation-duration: 20s;
+}
+
+
+@keyframes rotatie{
+    from {rotate: 0deg;}
+    to {rotate: 360deg;}
+}
+.artiest-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.artiest-logo{
+    background-color: #FF0047;
+    display: flex;
+    justify-content: center;
+
+}
+
+.artiest-logo img{
+    transform: scale(5);
+    animation: infinite ease-in-out;
+    animation-name: logo-animation;
+    animation-duration: 5s;
+}
+
+
+@keyframes logo-animation{
+    0% {translate: 0px 0px; rotate: -5deg;}
+    25% {translate: 0px -30px;}
+    50% {translate: 0px 0px; rotate: 5deg; }
+    75% {translate: 0px -30px;}
+    100% {translate: 0px 0px; rotate: -5deg;}
+}
+.uitleg{
+    color: white;
+    padding: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+
