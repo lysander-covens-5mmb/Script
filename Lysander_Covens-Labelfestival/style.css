@@ -289,11 +289,11 @@ footer img{
     animation-duration: 20s;
 }
 
-
 @keyframes rotatie{
     from {rotate: 0deg;}
     to {rotate: 360deg;}
 }
+
 .artiest-info{
     display: flex;
     flex-direction: column;
@@ -315,7 +315,6 @@ footer img{
     animation-duration: 5s;
 }
 
-
 @keyframes logo-animation{
     0% {translate: 0px 0px; rotate: -5deg;}
     25% {translate: 0px -30px;}
@@ -323,6 +322,7 @@ footer img{
     75% {translate: 0px -30px;}
     100% {translate: 0px 0px; rotate: -5deg;}
 }
+
 .uitleg{
     color: white;
     padding: 10%;
@@ -333,4 +333,10 @@ footer img{
 
 }
 
-
+.flex-container-videos{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
