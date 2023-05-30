@@ -470,13 +470,11 @@ footer img{
         flex-direction: column;
         flex-wrap: wrap;
         z-index: 5;
-
     }
     header a:last-child {
         background-color: rgba(255, 255, 255, 0);
         color: rgb(255, 255, 255);
-    }
-        
+    }   
     header div input#burger:checked+label[for="burger"]+ul{
         display: flex;
         animation: linear;
@@ -484,6 +482,7 @@ footer img{
         animation-duration: 0.5s;
         transform:translateX(0%);
     }
+
 }
 
 @media (width <=500px) {
