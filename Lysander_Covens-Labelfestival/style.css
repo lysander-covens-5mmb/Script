@@ -408,6 +408,10 @@ footer img{
     
 }
 
+.media-phase1{
+    display: none;
+}
+
 @keyframes popup{
     from {translate: 100% 0%; opacity: 0%;}
     to {translate: 0% 0%; opacity: 100%;}
@@ -482,6 +486,15 @@ footer img{
         animation-duration: 0.5s;
         transform:translateX(0%);
     }
+    .artiest-logo h2{
+        display: none;
+    }
+    .artiest-logo{
+        justify-content: center;
+    }
+    .media-phase1{
+        display: block;
+    }
 
 }
 
@@ -497,5 +510,9 @@ footer img{
     }
     .festival-info{
         display: none;
+    }
+    .uitleg{
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
