@@ -515,4 +515,7 @@ footer img{
         padding-left: 5%;
         padding-right: 5%;
     }
+    .artiest-logo img{
+        width: 50px;
+    }
 }
