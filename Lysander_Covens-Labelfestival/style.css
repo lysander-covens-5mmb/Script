@@ -477,7 +477,7 @@ footer img{
     }
     header a:last-child {
         background-color: rgba(255, 255, 255, 0);
-        color: rgb(255, 255, 255);
+        color: var(--bgc-03);
     }   
     header div input#burger:checked+label[for="burger"]+ul{
         display: flex;
